@@ -1,0 +1,157 @@
+.main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+} 
+.qeebta_dhexe{
+        display: flex;
+
+}
+input{
+        margin-top: 20px;
+        outline: none;
+        height: 30px;
+        width: 180px;
+}
+nav ul {
+        display: flex;
+        list-style: none;
+}
+nav ul li {
+        padding: 10px;
+}
+nav a{
+        text-decoration: none;
+      
+}
+.btns{
+        margin-top: 20px
+}
+
+.btn1{
+        background-color: brown;
+        color: white;
+        border: none;
+        width: 120px;
+        height: 40px;
+        border-radius: 5px;
+}
+
+.btn2{
+        background-color: coral;
+        color: white;
+        border: none;
+        width: 120px;
+        height: 40px;
+        border-radius: 5px;
+}
+/* .........................form  */
+.form_main{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+}
+.form_1 form{
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+        width: 280px;
+        height: 160px;
+       
+        
+}
+.btn3{
+        width: 150px;
+}
+
+.salma{
+ 
+        background-color: green;
+        height: 300px;
+        display: flex;
+        /* ...................  justify content ............ */
+       /* justify-content: space-between; */
+       /* justify-content: space-around; */
+       /* justify-content: space-evenly; */
+
+
+       /* justify-content: flex-start; */
+       /* justify-content: flex-end; */
+       /* justify-content: center; */
+
+
+       /* ............................. aling item ............... */
+       /* align-items: center; */
+       /* align-items: start; */
+       /* align-items: end; */
+
+
+
+       /* flex-direction: column;
+       flex-wrap: wrap; */
+
+
+       flex-flow: column wrap;
+       
+      
+}
+
+
+
+
+.item1{
+        background-color: cyan;
+        width: 250px;
+        height: 130px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ 
+       
+       
+
+}
+
+.item2{
+        background-color: brown;
+        width: 200px;
+        height: 100px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+}
+
+.item3{
+        background-color: chocolate;
+        width: 200px;
+        height: 100px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+         
+}
+
+
+
+/* ................... mobile  */
+/* 
+@media only and screen (max-width: 500px){
+        .salma{
+                background-color: green;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                    
+              
+        }
+        
+        
+        
+} */
